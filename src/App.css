@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+body,
+* {
+  font-family: "Nunito", cursive !important;
+}
+
+.matrimony__container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.mat__darklighttoggle {
+  position: fixed !important;
+  top: 10px;
+  right: 20px;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: none !important;
+  -webkit-transition: none;
+  transition: none;
+}
+
+input:-internal-autofill-selected {
+  background: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  -webkit-transition-delay: background-color 5000s, color 5000s;
+          transition-delay: background-color 5000s, color 5000s;
+}
+
+.mat__profilepicview {
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mat__profilepicholder {
+  cursor: pointer;
+}
+
+.mat__profilepicremove {
+  color: red;
+}
+/*# sourceMappingURL=App.css.map */

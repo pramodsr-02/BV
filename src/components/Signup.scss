@@ -1,0 +1,74 @@
+.MuiFormControl-root.mat__textbox {
+    margin-top: 30px;
+    width: 100%;
+}
+.mat__signupgrid {
+    padding: 20px;
+    .MuiFormHelperText-contained {
+        margin-left: 0 !important;
+    }
+}
+.mat__signupgrid-left {
+    padding-right: 32px;
+    .mat__signupgrid {
+        height: 100%;
+    }
+}
+.mat__signupgrid-right {
+    padding-left: 32px;
+}
+.mat__caste {
+    padding-right: 20px;
+}
+.mat__subcaste {
+    padding-left: 20px;
+}
+.selected {
+    background: red;
+}
+.clearboth {
+    width: 100%;
+    height: 50px;
+}
+.MuiSelect-select:focus {
+    background: transparent;
+}
+.mat__custombutgrp {
+    display: block !important;
+    .MuiToggleButtonGroup-grouped {
+        border-radius: 20px !important;
+        margin: 15px 15px 0 0;
+        // border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        // border-left: initial !important;
+        margin-left: 0 !important;
+        padding: 6px 20px;
+    }
+}
+.MuiSelect-select:focus {
+    background: transparent !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    // -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+@-webkit-keyframes autofill {
+    0%,
+    100% {
+        color: #666;
+        background-color: transparent !important;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+.signup__buttons {
+    padding: 20px;
+    &:first-child {
+        margin-right: 20px;
+    }
+}

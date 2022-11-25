@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+body,
+* {
+    font-family: "Nunito", cursive !important;
+}
+.matrimony__container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.mat__darklighttoggle {
+    position: fixed !important;
+    top: 10px;
+    right: 20px;
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: none !important;
+    transition: none;
+    // -webkit-text-fill-color: inherit;
+}
+input:-internal-autofill-selected {
+    background: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s,
+        color 5000s ease-in-out 0s;
+    transition-delay: background-color 5000s, color 5000s;
+}
+
+.mat__profilepicview {
+    height: 100px;
+    object-fit: contain;
+}
+.mat__profilepicholder {
+    cursor: pointer;
+    &:hover {
+        // transform: scale(1.05);
+    }
+}
+.mat__profilepicremove {
+    color: red;
+}
+.image-gallery-thumbnails {
+    @media only screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .editProfile {
+        .mat__subcaste {
+            padding-left: 0px;
+        }
+        .mat__caste {
+            padding-right: 0px;
+        }
+    }
+}

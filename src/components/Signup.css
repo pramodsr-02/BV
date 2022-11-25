@@ -1,0 +1,84 @@
+.MuiFormControl-root.mat__textbox {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.mat__signupgrid {
+  padding: 20px;
+}
+
+.mat__signupgrid .MuiFormHelperText-contained {
+  margin-left: 0 !important;
+}
+
+.mat__signupgrid-left {
+  padding-right: 32px;
+}
+
+.mat__signupgrid-left .mat__signupgrid {
+  height: 100%;
+}
+
+.mat__signupgrid-right {
+  padding-left: 32px;
+}
+
+.mat__caste {
+  padding-right: 20px;
+}
+
+.mat__subcaste {
+  padding-left: 20px;
+}
+
+.selected {
+  background: red;
+}
+
+.clearboth {
+  width: 100%;
+  height: 50px;
+}
+
+.MuiSelect-select:focus {
+  background: transparent;
+}
+
+.mat__custombutgrp {
+  display: block !important;
+}
+
+.mat__custombutgrp .MuiToggleButtonGroup-grouped {
+  border-radius: 20px !important;
+  margin: 15px 15px 0 0;
+  margin-left: 0 !important;
+  padding: 6px 20px;
+}
+
+.MuiSelect-select:focus {
+  background: transparent !important;
+}
+
+@-webkit-keyframes autofill {
+  0%,
+  100% {
+    color: #666;
+    background-color: transparent !important;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-animation-delay: 1s;
+  /* Safari support - any positive time runs instantly */
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+
+.signup__buttons {
+  padding: 20px;
+}
+
+.signup__buttons:first-child {
+  margin-right: 20px;
+}
+/*# sourceMappingURL=Signup.css.map */
